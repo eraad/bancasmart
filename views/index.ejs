@@ -1,0 +1,27 @@
+<ul data-role="listview" data-inset="true" data-theme="d" data-dividertheme="d">
+  <li data-role="list-divider">Cuentas</li>
+  <% for (var i=0 in cuentas) { %>
+	<li>
+    <a href="/movimientos/<%= cuentas[i].numero %>">
+    <h5>Aho: <%=  cuentas[i].numero %></h5>
+    <table class="account-table">
+      <tr><td><p>Disponible:</p><td><p>$<%=  cuentas[i].disponible %></p></td></tr>
+      <tr><td><p>Contable:</p><td><p>$<%=  cuentas[i].contable %></p></td></tr>
+    </table>
+    </a>
+  </li>
+  <% } %>
+  <li data-role="list-divider">Tarjetas de cr&eacute;dito</li>
+  <% for (var i=0 in tarjetas) { %>
+  <li>
+    <a href="/movimientos/<%= tarjetas[i].numero %>">
+    <h5>Amex: <%= tarjetas[i].numero %></h5>
+    <table class="account-table">
+      <tr><td><p>Disponible:</p><td><p>$<%= tarjetas[i].disponible %></p></td></tr>
+      <tr><td><p>M&iacute;nimo a pagar:</p><td><p>$<%= tarjetas[i].minimo %></p></td></tr>
+      <tr><td><p>Saldo contado:</p><td><p>$<%= tarjetas[i].saldoContado %></p></td></tr>
+    </table>
+    </a>
+  </li>
+  <% } %>
+</ul>

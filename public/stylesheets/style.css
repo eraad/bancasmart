@@ -1,0 +1,50 @@
+.logo {
+  padding: 10px;
+  margin: 0 auto;
+  display: block;
+}
+
+.account-table {
+  margin: 0;
+  padding: 0;
+}
+
+.account-table tr {
+  margin: 0;
+  padding: 0;
+}
+
+.account-table td {
+  margin: 0;
+  padding: 0 10px 0 0;
+}
+
+.account-table p {
+  margin: 0;
+  padding: 0;
+}
+
+.mov-table {
+  width: 100%;
+  font-size: 0.9em;
+  margin: 0;
+  padding: 0;
+}
+
+.mov-table td {
+  padding-right: 8px;
+}
+
+#menu-bg li a span .ui-icon {
+  background-color: #dc006b;
+}
+
+.login-text {
+  font-size: 0.8em;
+}
+
+.login-image {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}

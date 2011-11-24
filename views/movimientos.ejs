@@ -1,0 +1,14 @@
+<ul data-role="listview">
+<% for (var i=0 in data) { %>
+<li>
+<table class="mov-table">
+<tr>
+<td><%= data[i].fecha %></td>
+<td><%= data[i].tipo %></td>
+<td><%= data[i].concepto %></td>
+<td>$<%= data[i].monto %></td>
+</tr>
+</table>
+</li>
+<% } %>
+</ul>

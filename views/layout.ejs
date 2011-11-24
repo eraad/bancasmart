@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel='stylesheet' href='/stylesheets/jquery.mobile-1.0rc2.css' />
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <script type="text/javascript" src="/javascripts/jquery-1.6.4.min.js"></script>
+    <script type="text/javascript" src="/javascripts/custom-app.js"></script>
+    <script type="text/javascript" src="/javascripts/jquery.mobile-1.0rc2.min.js"></script>
+        <script type="text/javascript"
+        src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+  </head>
+  <body>
+    <div data-role="page" data-theme="x" data-add-back-btn="true" data-back-btn-text="Atr&aacute;s" id="<%= pageId %>" data-content-theme="c"> 
+
+      <div data-role="header" data-theme="x" data-position="inline">
+        <img class="logo" src="/images/logo-bg.png"/>
+        <a href="/" data-ajax="false" data-role="button" data-theme="x" class="ui-btn-right">Salir</a>
+      </div>
+
+      <div data-role="content">
+        <%- body %>
+      </div>
+
+      <div data-role="footer" data-theme="c" data-position="fixed">
+        <div data-role="navbar">
+          <ul id="menu-bg">
+            <li><a href="/" data-icon="home" data-iconpos="top">Inicio</a></li>
+            <li><a href="/pagos/" data-icon="home" data-iconpos="top">Pagos</a></li>
+            <li><a href="/transferencias/" data-icon="home" data-iconpos="top">Transferencias</a></li>
+            <li><a href="/agencias/" data-icon="home" data-iconpos="top">M&aacute;s</a></li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </body>
+</html>
