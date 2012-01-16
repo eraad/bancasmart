@@ -165,6 +165,20 @@ app.get('/comprasqr/pagar2', function(req, res){
   });
 });
 
+app.get('/coordenadaspago', function(req, res){
+  res.render('coordenadaspago', {
+    title: 'Banco de Guayaquil',
+      pageId: 'coordenadaspago'
+  });
+});
+
+app.get('/confirmacionspago', function(req, res){
+  res.render('confirmacionpago', {
+    title: 'Banco de Guayaquil',
+      pageId: 'confirmacionpago'
+  });
+});
+
 var port = process.env.PORT || 3000;
 app.listen(port, function() {
   console.log("Listening on " + port);
