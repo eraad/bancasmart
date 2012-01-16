@@ -144,6 +144,13 @@ app.get('/agencias/', function(req, res){
   });
 });
 
+app.get('/comprasqr/of11012012', function(req, res){
+  res.render('compra', {
+    title: 'Banco de Guayaquil',
+    pageId: 'compra'
+  });
+});
+
 var port = process.env.PORT || 3000;
 app.listen(port, function() {
   console.log("Listening on " + port);
