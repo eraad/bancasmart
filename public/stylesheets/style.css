@@ -1,3 +1,8 @@
+.logo-padding {
+  margin-top: 5px auto 0 auto;
+  display: block;
+}
+
 .logo {
   padding: 10px;
   margin: 0 auto;
