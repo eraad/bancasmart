@@ -173,7 +173,7 @@ app.get('/coordenadaspago', function(req, res){
   });
 });
 
-app.get('/confirmacionspago', function(req, res){
+app.get('/confirmacionpago', function(req, res){
   res.render('confirmacionpago', {
     title: 'Banco de Guayaquil',
       pageId: 'confirmacionpago'
