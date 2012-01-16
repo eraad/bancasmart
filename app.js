@@ -168,7 +168,8 @@ app.get('/comprasqr/pagar2', function(req, res){
 app.get('/coordenadaspago', function(req, res){
   res.render('coordenadaspago', {
     title: 'Banco de Guayaquil',
-      pageId: 'coordenadaspago'
+    pageId: 'coordenadaspago',
+    coordenadas: {codigo1: 'C7', codigo2: 'H1'},
   });
 });
 
