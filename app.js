@@ -33,7 +33,7 @@ app.configure('production', function(){
 // Routes
 
 app.get('/', function(req, res){
-  res.render('menu', {
+  res.render('login', {
     title: 'Banco de Guayaquil',
     pageId: 'login'
   });

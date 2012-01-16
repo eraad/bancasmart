@@ -17,7 +17,7 @@
 .ui-bar-x {
 	border: 1px solid 		#2A2A2A /*{a-bar-border}*/;
 	background: 			#111111 /*{a-bar-background-color}*/;
-	color: 					#ffffff /*{a-bar-color}*/;
+	color: 				#ffffff /*{a-bar-color}*/;
 	font-weight: bold;
 	text-shadow: 0 /*{a-bar-shadow-x}*/ -1px /*{a-bar-shadow-y}*/ 1px /*{a-bar-shadow-radius}*/ #000000 /*{a-bar-shadow-color}*/;
 	background-image: -webkit-gradient(linear, left top, left bottom, from(#144b91 /*{a-bar-background-start}*/), to(#111 /*{a-bar-background-end}*/)); /* Saf4+, Chrome */
@@ -57,8 +57,8 @@
 .ui-body-x {
 	border: 1px solid 		#2A2A2A /*{a-body-border}*/;
 	background: 			#f8f8f8 /*{a-body-background-color}*/;
-	color: 					#fff /*{a-body-color}*/;
-	 text-shadow: 0 /*{a-body-shadow-x}*/ 1px /*{a-body-shadow-y}*/ 0 /*{a-body-shadow-radius}*/ #000 /*{a-body-shadow-color}*/;
+	color: 				#fff /*{a-body-color}*/;
+	text-shadow: 0 /*{a-body-shadow-x}*/ 1px /*{a-body-shadow-y}*/ 0 /*{a-body-shadow-radius}*/ #000 /*{a-body-shadow-color}*/;
 	font-weight: normal;
 	background-image: -webkit-gradient(linear, left top, left bottom, from(#f8f8f8 /*{a-body-background-start}*/), to(#f8f8f8 /*{a-body-background-end}*/)); /* Saf4+, Chrome */
 	background-image: -webkit-linear-gradient(top, #f8f8f8 /*{a-body-background-start}*/, #f8f8f8 /*{a-body-background-end}*/); /* Chrome 10+, Saf5.1+ */
