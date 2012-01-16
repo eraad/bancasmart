@@ -147,7 +147,21 @@ app.get('/agencias/', function(req, res){
 app.get('/comprasqr/of11012012', function(req, res){
   res.render('compra', {
     title: 'Banco de Guayaquil',
-    pageId: 'compra'
+      pageId: 'compra'
+  });
+});
+
+app.get('/comprasqr/pagar', function(req, res){
+  res.render('pagar', {
+    title: 'Banco de Guayaquil',
+      pageId: 'pagar'
+  });
+});
+
+app.get('/comprasqr/pagar2', function(req, res){
+  res.render('pagar2', {
+    title: 'Banco de Guayaquil',
+      pageId: 'pagar2'
   });
 });
 
